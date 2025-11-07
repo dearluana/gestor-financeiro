@@ -1,0 +1,30 @@
+# Dependências
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de build e cache
+dist/
+build/
+.cache/
+.tmp/
+
+# Configurações locais
+.env
+*.local
+
+# Arquivos de lock (se não quiser versionar)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Dados da aplicação (se não quiser versionar dívidas salvas)
+dividas.json
