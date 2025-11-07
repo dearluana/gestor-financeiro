@@ -1,30 +1,13 @@
-# Dependências
+# Ignorar dependências
 node_modules/
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# Ignorar arquivos de log
+*.log
 
-# Sistema operacional
-.DS_Store
-Thumbs.db
+# Ignorar dados locais da aplicação
+dividas.json
 
-# Arquivos de build e cache
-dist/
-build/
-.cache/
-.tmp/
-
-# Configurações locais
-.env
-*.local
-
-# Arquivos de lock (se não quiser versionar)
+# Arquivos de lock 
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
-
-# Dados da aplicação (se não quiser versionar dívidas salvas)
-dividas.json
