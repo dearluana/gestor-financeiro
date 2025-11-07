@@ -3,8 +3,7 @@ import chalk from 'chalk';
 import fs from 'fs';
 
 // Caminho do arquivo JSON
-const arquivoDividas =  dividas.json
-
+const arquivoDividas = 'dividas.json';
 
 // Função para calcular quantos dias faltam até o vencimento
 function calcularDiasRestantes(dataVencimento) {
@@ -46,6 +45,9 @@ function main() {
     adicionarMais = resposta.toLowerCase() === 's';
     console.log();
   }
+
+  // Salvar no arquivo JSON
+  fs.writeFileSync(arquivoDividas, JSON.stringify(dividas, null, 2));
 
   console.log(chalk.cyanBright('\n=== RESUMO DAS DÍVIDAS ===\n'));
   let total = 0;
@@ -101,4 +103,3 @@ function main() {
 
 // Executa o programa
 main();
-
