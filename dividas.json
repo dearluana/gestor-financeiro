@@ -1,0 +1,14 @@
+[
+  {
+    "banco": "nubank",
+    "valor": 400000,
+    "vencimento": "18/12/2025",
+    "diasRestantes": 41
+  },
+  {
+    "banco": "itau",
+    "valor": 2000,
+    "vencimento": "02/11/2025",
+    "diasRestantes": -5
+  }
+]
